@@ -11,7 +11,6 @@ module.exports = {
           return response.data.weightLB
         } else {
           return Promise.reject('Invalid response object')
-          
         }
       })
       .catch( (err) => {
